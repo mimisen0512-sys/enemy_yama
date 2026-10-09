@@ -6,79 +6,41 @@
     1024
   ],
   "facing_direction": "front",
-  "art_style": "1990s Japanese cel anime, muted gray and yellow-green",
+  "art_style": "flat color shapes, weak outlines, gray and yellow-green",
+  "silhouette_bounds_px": [
+    273,
+    203,
+    1264,
+    822
+  ],
+  "silhouette_size_px": [
+    991,
+    619
+  ],
+  "silhouette_width_height_ratio": 1.6009693053311793,
   "coordinate_conventions": {
-    "position_px": "image top-left in canvas pixels",
-    "pivot_px": "joint in individual image-local pixels",
-    "attach_points_px": "coordinate spaces explicitly named per field",
+    "position_px": "individual image top-left in canvas",
+    "pivot_px": "joint in individual image-local coordinates",
+    "attach_points_px": "spaces named per field",
     "initial_rotation": "radians",
-    "initial_scale": "unit scale; images already sized for assembly",
-    "left_right": "character anatomical sides, opposite viewer sides"
+    "initial_scale": "unit; PNGs already sized for assembly",
+    "left_right": "anatomical character sides, opposite viewer sides"
   },
-  "tail": "included in torso; not independently animated",
+  "tail": "included in torso, no separate animation",
   "parts": {
-    "head": {
-      "filename": "enemy_head.png",
-      "image_size": [
-        152,
-        231
-      ],
-      "position_px": [
-        623,
-        128
-      ],
-      "pivot_px": [
-        75,
-        212
-      ],
-      "z_index": 4,
-      "initial_rotation": 0,
-      "initial_scale": [
-        1,
-        1
-      ],
-      "source_crop_px": [
-        135,
-        31,
-        407,
-        444
-      ],
-      "attach_points_px": {
-        "joint_canvas": [
-          698,
-          340
-        ],
-        "joint_local": [
-          75,
-          212
-        ],
-        "torso_image_local": [
-          34,
-          84
-        ],
-        "torso_pivot_local": [
-          -53,
-          -64
-        ]
-      },
-      "recommended_rotation_degrees": [
-        -8,
-        8
-      ]
-    },
     "torso": {
       "filename": "enemy_torso.png",
       "image_size": [
-        359,
-        311
+        419,
+        274
       ],
       "position_px": [
-        622,
-        311
+        679,
+        371
       ],
       "pivot_px": [
-        87,
-        148
+        92,
+        135
       ],
       "z_index": 2,
       "initial_rotation": 0,
@@ -86,48 +48,85 @@
         1,
         1
       ],
-      "source_crop_px": [
-        607,
-        32,
-        1135,
-        490
+      "recommended_rotation_degrees": [
+        -8,
+        8
       ],
       "attach_points_px": {
         "joint_canvas": [
-          709,
-          459
+          771,
+          506
         ],
         "joint_local": [
-          87,
-          148
+          92,
+          135
         ],
         "torso_image_local": [
-          87,
-          148
+          92,
+          135
         ],
         "torso_pivot_local": [
           0,
           0
         ]
-      },
+      }
+    },
+    "head": {
+      "filename": "enemy_head.png",
+      "image_size": [
+        163,
+        212
+      ],
+      "position_px": [
+        690,
+        203
+      ],
+      "pivot_px": [
+        81,
+        194
+      ],
+      "z_index": 4,
+      "initial_rotation": 0,
+      "initial_scale": [
+        1,
+        1
+      ],
       "recommended_rotation_degrees": [
         -8,
         8
-      ]
+      ],
+      "attach_points_px": {
+        "joint_canvas": [
+          771,
+          397
+        ],
+        "joint_local": [
+          81,
+          194
+        ],
+        "torso_image_local": [
+          92,
+          26
+        ],
+        "torso_pivot_local": [
+          0,
+          -109
+        ]
+      }
     },
     "left_arm": {
       "filename": "enemy_left_arm.png",
       "image_size": [
-        117,
-        341
+        473,
+        364
       ],
       "position_px": [
-        740,
-        333
+        791,
+        379
       ],
       "pivot_px": [
-        21,
-        28
+        55,
+        73
       ],
       "z_index": 3,
       "initial_rotation": 0,
@@ -135,48 +134,42 @@
         1,
         1
       ],
-      "source_crop_px": [
-        1209,
-        12,
-        1381,
-        514
-      ],
-      "attach_points_px": {
-        "joint_canvas": [
-          761,
-          361
-        ],
-        "joint_local": [
-          21,
-          28
-        ],
-        "torso_image_local": [
-          139,
-          50
-        ],
-        "torso_pivot_local": [
-          52,
-          -98
-        ]
-      },
       "recommended_rotation_degrees": [
         -12,
         12
-      ]
+      ],
+      "attach_points_px": {
+        "joint_canvas": [
+          846,
+          452
+        ],
+        "joint_local": [
+          55,
+          73
+        ],
+        "torso_image_local": [
+          167,
+          81
+        ],
+        "torso_pivot_local": [
+          75,
+          -54
+        ]
+      }
     },
     "right_arm": {
       "filename": "enemy_right_arm.png",
       "image_size": [
-        100,
-        331
+        479,
+        290
       ],
       "position_px": [
-        554,
-        342
+        273,
+        393
       ],
       "pivot_px": [
-        78,
-        19
+        423,
+        59
       ],
       "z_index": 3,
       "initial_rotation": 0,
@@ -184,48 +177,42 @@
         1,
         1
       ],
-      "source_crop_px": [
-        173,
-        524,
-        320,
-        1011
-      ],
-      "attach_points_px": {
-        "joint_canvas": [
-          632,
-          361
-        ],
-        "joint_local": [
-          78,
-          19
-        ],
-        "torso_image_local": [
-          10,
-          50
-        ],
-        "torso_pivot_local": [
-          -77,
-          -98
-        ]
-      },
       "recommended_rotation_degrees": [
         -12,
         12
-      ]
+      ],
+      "attach_points_px": {
+        "joint_canvas": [
+          696,
+          452
+        ],
+        "joint_local": [
+          423,
+          59
+        ],
+        "torso_image_local": [
+          17,
+          81
+        ],
+        "torso_pivot_local": [
+          -75,
+          -54
+        ]
+      }
     },
     "left_leg": {
       "filename": "enemy_left_leg.png",
       "image_size": [
-        109,
-        373
+        157,
+        244
       ],
       "position_px": [
-        681,
-        522
+        758,
+        578
       ],
       "pivot_px": [
-        80,
-        24
+        58,
+        18
       ],
       "z_index": 1,
       "initial_rotation": 0,
@@ -233,48 +220,42 @@
         1,
         1
       ],
-      "source_crop_px": [
-        673,
-        518,
-        818,
-        1015
-      ],
-      "attach_points_px": {
-        "joint_canvas": [
-          761,
-          546
-        ],
-        "joint_local": [
-          80,
-          24
-        ],
-        "torso_image_local": [
-          139,
-          235
-        ],
-        "torso_pivot_local": [
-          52,
-          87
-        ]
-      },
       "recommended_rotation_degrees": [
         -8,
         8
-      ]
+      ],
+      "attach_points_px": {
+        "joint_canvas": [
+          816,
+          596
+        ],
+        "joint_local": [
+          58,
+          18
+        ],
+        "torso_image_local": [
+          137,
+          225
+        ],
+        "torso_pivot_local": [
+          45,
+          90
+        ]
+      }
     },
     "right_leg": {
       "filename": "enemy_right_leg.png",
       "image_size": [
-        110,
-        373
+        147,
+        244
       ],
       "position_px": [
-        607,
-        523
+        624,
+        578
       ],
       "pivot_px": [
-        29,
-        23
+        102,
+        18
       ],
       "z_index": 1,
       "initial_rotation": 0,
@@ -282,39 +263,33 @@
         1,
         1
       ],
-      "source_crop_px": [
-        1201,
-        518,
-        1347,
-        1015
-      ],
-      "attach_points_px": {
-        "joint_canvas": [
-          636,
-          546
-        ],
-        "joint_local": [
-          29,
-          23
-        ],
-        "torso_image_local": [
-          14,
-          235
-        ],
-        "torso_pivot_local": [
-          -73,
-          87
-        ]
-      },
       "recommended_rotation_degrees": [
         -8,
         8
-      ]
+      ],
+      "attach_points_px": {
+        "joint_canvas": [
+          726,
+          596
+        ],
+        "joint_local": [
+          102,
+          18
+        ],
+        "torso_image_local": [
+          47,
+          225
+        ],
+        "torso_pivot_local": [
+          -45,
+          90
+        ]
+      }
     }
   },
   "notes": [
-    "Joint coordinates manually authored from generated artwork.",
-    "Original concept and part sheet differ slightly; preview is authoritative assembled asset.",
-    "Rigid cutout joints have limited rotation ranges; large rotations need additional art."
+    "Final preview is reconstructed from delivered PNGs, not separately generated.",
+    "Joint locations authored from actual generated artwork.",
+    "Neutral arm angle baked into PNGs."
   ]
 }

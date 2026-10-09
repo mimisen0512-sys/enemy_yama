@@ -1,60 +1,58 @@
 {
   "passed": [
-    "six RGBA PNG parts",
-    "1536x1024 preview",
-    "transparent outside silhouettes",
-    "no clipping",
+    "six transparent RGBA PNG parts",
+    "1536x1024 canvas",
+    "actual silhouette wider than tall",
+    "no canvas clipping",
     "pivots inside images",
-    "coordinate consistency",
-    "exact JSON reconstruction",
-    "all limb/head joint overlaps at recommended rotation endpoints"
+    "exact metadata reconstruction",
+    "joint overlap at recommended rotation endpoints"
   ],
-  "preview_alpha_bounds": [
-    554,
-    128,
-    981,
-    896
+  "silhouette_size_px": [
+    991,
+    619
   ],
+  "silhouette_width_height_ratio": 1.6009693053311793,
+  "joint_overlap_pixels": {
+    "head_-8": 1577,
+    "head_8": 1562,
+    "left_arm_-12": 2143,
+    "left_arm_12": 2125,
+    "right_arm_-12": 2268,
+    "right_arm_12": 2266,
+    "left_leg_-8": 2233,
+    "left_leg_8": 2237,
+    "right_leg_-8": 2149,
+    "right_leg_8": 2163
+  },
   "not_runtime_tested": [
     "Godot rendering",
     "large-angle animation"
   ],
   "part_sizes": {
-    "head": [
-      152,
-      231
-    ],
     "torso": [
-      359,
-      311
+      419,
+      274
+    ],
+    "head": [
+      163,
+      212
     ],
     "left_arm": [
-      117,
-      341
+      473,
+      364
     ],
     "right_arm": [
-      100,
-      331
+      479,
+      290
     ],
     "left_leg": [
-      109,
-      373
+      157,
+      244
     ],
     "right_leg": [
-      110,
-      373
+      147,
+      244
     ]
-  },
-  "joint_overlap_pixels": {
-    "head_-8": 1553,
-    "head_8": 1539,
-    "left_arm_-12": 1840,
-    "left_arm_12": 1766,
-    "right_arm_-12": 656,
-    "right_arm_12": 800,
-    "left_leg_-8": 1930,
-    "left_leg_8": 1940,
-    "right_leg_-8": 1158,
-    "right_leg_8": 1249
   }
 }
