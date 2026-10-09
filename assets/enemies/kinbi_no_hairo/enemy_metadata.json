@@ -1,0 +1,320 @@
+{
+  "enemy_name": "菌尾の灰狼",
+  "asset_id": "kinbi_no_hairo",
+  "canvas_size": [
+    1536,
+    1024
+  ],
+  "facing_direction": "front",
+  "art_style": "1990s Japanese cel anime, muted gray and yellow-green",
+  "coordinate_conventions": {
+    "position_px": "image top-left in canvas pixels",
+    "pivot_px": "joint in individual image-local pixels",
+    "attach_points_px": "coordinate spaces explicitly named per field",
+    "initial_rotation": "radians",
+    "initial_scale": "unit scale; images already sized for assembly",
+    "left_right": "character anatomical sides, opposite viewer sides"
+  },
+  "tail": "included in torso; not independently animated",
+  "parts": {
+    "head": {
+      "filename": "enemy_head.png",
+      "image_size": [
+        152,
+        231
+      ],
+      "position_px": [
+        623,
+        128
+      ],
+      "pivot_px": [
+        75,
+        212
+      ],
+      "z_index": 4,
+      "initial_rotation": 0,
+      "initial_scale": [
+        1,
+        1
+      ],
+      "source_crop_px": [
+        135,
+        31,
+        407,
+        444
+      ],
+      "attach_points_px": {
+        "joint_canvas": [
+          698,
+          340
+        ],
+        "joint_local": [
+          75,
+          212
+        ],
+        "torso_image_local": [
+          34,
+          84
+        ],
+        "torso_pivot_local": [
+          -53,
+          -64
+        ]
+      },
+      "recommended_rotation_degrees": [
+        -8,
+        8
+      ]
+    },
+    "torso": {
+      "filename": "enemy_torso.png",
+      "image_size": [
+        359,
+        311
+      ],
+      "position_px": [
+        622,
+        311
+      ],
+      "pivot_px": [
+        87,
+        148
+      ],
+      "z_index": 2,
+      "initial_rotation": 0,
+      "initial_scale": [
+        1,
+        1
+      ],
+      "source_crop_px": [
+        607,
+        32,
+        1135,
+        490
+      ],
+      "attach_points_px": {
+        "joint_canvas": [
+          709,
+          459
+        ],
+        "joint_local": [
+          87,
+          148
+        ],
+        "torso_image_local": [
+          87,
+          148
+        ],
+        "torso_pivot_local": [
+          0,
+          0
+        ]
+      },
+      "recommended_rotation_degrees": [
+        -8,
+        8
+      ]
+    },
+    "left_arm": {
+      "filename": "enemy_left_arm.png",
+      "image_size": [
+        117,
+        341
+      ],
+      "position_px": [
+        740,
+        333
+      ],
+      "pivot_px": [
+        21,
+        28
+      ],
+      "z_index": 3,
+      "initial_rotation": 0,
+      "initial_scale": [
+        1,
+        1
+      ],
+      "source_crop_px": [
+        1209,
+        12,
+        1381,
+        514
+      ],
+      "attach_points_px": {
+        "joint_canvas": [
+          761,
+          361
+        ],
+        "joint_local": [
+          21,
+          28
+        ],
+        "torso_image_local": [
+          139,
+          50
+        ],
+        "torso_pivot_local": [
+          52,
+          -98
+        ]
+      },
+      "recommended_rotation_degrees": [
+        -12,
+        12
+      ]
+    },
+    "right_arm": {
+      "filename": "enemy_right_arm.png",
+      "image_size": [
+        100,
+        331
+      ],
+      "position_px": [
+        554,
+        342
+      ],
+      "pivot_px": [
+        78,
+        19
+      ],
+      "z_index": 3,
+      "initial_rotation": 0,
+      "initial_scale": [
+        1,
+        1
+      ],
+      "source_crop_px": [
+        173,
+        524,
+        320,
+        1011
+      ],
+      "attach_points_px": {
+        "joint_canvas": [
+          632,
+          361
+        ],
+        "joint_local": [
+          78,
+          19
+        ],
+        "torso_image_local": [
+          10,
+          50
+        ],
+        "torso_pivot_local": [
+          -77,
+          -98
+        ]
+      },
+      "recommended_rotation_degrees": [
+        -12,
+        12
+      ]
+    },
+    "left_leg": {
+      "filename": "enemy_left_leg.png",
+      "image_size": [
+        109,
+        373
+      ],
+      "position_px": [
+        681,
+        522
+      ],
+      "pivot_px": [
+        80,
+        24
+      ],
+      "z_index": 1,
+      "initial_rotation": 0,
+      "initial_scale": [
+        1,
+        1
+      ],
+      "source_crop_px": [
+        673,
+        518,
+        818,
+        1015
+      ],
+      "attach_points_px": {
+        "joint_canvas": [
+          761,
+          546
+        ],
+        "joint_local": [
+          80,
+          24
+        ],
+        "torso_image_local": [
+          139,
+          235
+        ],
+        "torso_pivot_local": [
+          52,
+          87
+        ]
+      },
+      "recommended_rotation_degrees": [
+        -8,
+        8
+      ]
+    },
+    "right_leg": {
+      "filename": "enemy_right_leg.png",
+      "image_size": [
+        110,
+        373
+      ],
+      "position_px": [
+        607,
+        523
+      ],
+      "pivot_px": [
+        29,
+        23
+      ],
+      "z_index": 1,
+      "initial_rotation": 0,
+      "initial_scale": [
+        1,
+        1
+      ],
+      "source_crop_px": [
+        1201,
+        518,
+        1347,
+        1015
+      ],
+      "attach_points_px": {
+        "joint_canvas": [
+          636,
+          546
+        ],
+        "joint_local": [
+          29,
+          23
+        ],
+        "torso_image_local": [
+          14,
+          235
+        ],
+        "torso_pivot_local": [
+          -73,
+          87
+        ]
+      },
+      "recommended_rotation_degrees": [
+        -8,
+        8
+      ]
+    }
+  },
+  "notes": [
+    "Joint coordinates manually authored from generated artwork.",
+    "Original concept and part sheet differ slightly; preview is authoritative assembled asset.",
+    "Rigid cutout joints have limited rotation ranges; large rotations need additional art."
+  ]
+}

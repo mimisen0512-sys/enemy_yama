@@ -1,0 +1,60 @@
+{
+  "passed": [
+    "six RGBA PNG parts",
+    "1536x1024 preview",
+    "transparent outside silhouettes",
+    "no clipping",
+    "pivots inside images",
+    "coordinate consistency",
+    "exact JSON reconstruction",
+    "all limb/head joint overlaps at recommended rotation endpoints"
+  ],
+  "preview_alpha_bounds": [
+    554,
+    128,
+    981,
+    896
+  ],
+  "not_runtime_tested": [
+    "Godot rendering",
+    "large-angle animation"
+  ],
+  "part_sizes": {
+    "head": [
+      152,
+      231
+    ],
+    "torso": [
+      359,
+      311
+    ],
+    "left_arm": [
+      117,
+      341
+    ],
+    "right_arm": [
+      100,
+      331
+    ],
+    "left_leg": [
+      109,
+      373
+    ],
+    "right_leg": [
+      110,
+      373
+    ]
+  },
+  "joint_overlap_pixels": {
+    "head_-8": 1553,
+    "head_8": 1539,
+    "left_arm_-12": 1840,
+    "left_arm_12": 1766,
+    "right_arm_-12": 656,
+    "right_arm_12": 800,
+    "left_leg_-8": 1930,
+    "left_leg_8": 1940,
+    "right_leg_-8": 1158,
+    "right_leg_8": 1249
+  }
+}
